@@ -1,6 +1,7 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    background-color: rgb(146, 146, 240);
 
 }
 
@@ -68,6 +69,12 @@ html {
     */
     width:100%;
     height: 110vh;
+    -webkit-mask-image: linear-gradient(180deg,#000 60%,transparent);
+
+    /*do a little transparency at the bottom for looks*/
+    mask-image: linear-gradient(180deg,#000 60%,transparent);
+    
+    
 }
 
 
@@ -87,28 +94,24 @@ html {
 }
 
 
-#twoColumn {
+#twoColumnGrid {
   padding-top:2vh;
   margin-left:12%;
   margin-right:12%;
+  display:grid;
+  grid-template-columns: auto auto;
+  column-gap:1%;
+  align-content:center;
 }
 
-#columnLeft{
-
-  display: inline-block;
-
-  margin-right: 1%;
-  width:48%;
-
-
-
-  background-color:rgba(161, 155, 236, 0.5) ;
+/*shared rules between columns*/
+#column{
+  background-image:radial-gradient(rgba(160, 155, 236, 0.089),rgba(198, 195, 235, 0.849));
+  border-radius: 1vw;
 }
-
-#columnRight{
-
-  display: inline-block;
+#column p {
+  font-size: 2vh;
   margin-left:1%;
-  width:48%;
-  background-color:rgba(161, 155, 236, 0.5) ;
+  margin-right:1%;
+  text-align:center;
 }
