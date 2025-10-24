@@ -86,12 +86,19 @@ html {
 
 }
 
+
+#twoColumn {
+  padding-top:2vh;
+  margin-left:12%;
+  margin-right:12%;
+}
+
 #columnLeft{
 
   display: inline-block;
 
   margin-right: 1%;
-  width:48.9%;
+  width:48%;
 
 
 
@@ -102,10 +109,6 @@ html {
 
   display: inline-block;
   margin-left:1%;
-
-  width:48.9%;
-
-
-
+  width:48%;
   background-color:rgba(161, 155, 236, 0.5) ;
 }
