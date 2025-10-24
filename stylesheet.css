@@ -29,6 +29,12 @@ html {
 
 }
 
+.glass {
+  background-image: radial-gradient(rgba(137, 129, 224, 0.1),rgba(255,255,255,0.9));
+  border-radius:1vw;
+}
+
+
 /* for items on the navbar*/
 #navbar li a {
 
