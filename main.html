@@ -10,12 +10,15 @@
 
     <ul id="navbar">
         <li><a href="main.html" >Home<br>Page</a></li>
-        <li><a href="news.asp"  >Enviromental<br>Impacts</a></li>
-        <li><a href="cont.asp"  >Medical<br>Benefits</a></li>
-        <li><a href="about.asp" >Economic<br>Impacts</a></li>
-        <li><a href="guh.html"  >References<br>List</a></li>
-        <li><a href="guh.html"  >Activity<br>Log</a></li>
+        <li><a href="enviroment.html"  >Enviromental<br>Impacts</a></li>
+        <li><a href="medical.html"  >Medical<br>Benefits</a></li>
+        <li><a href="economic.html" >Economic<br>Impacts</a></li>
+        <li><a href="references.html"  >References<br>List</a></li>
+        <li><a href="activity.html"  >Activity<br>Log</a></li>
     </ul>
+
+
+
 
     <div id="fullWidthImage">
         
@@ -25,27 +28,81 @@
         </p>
     </div>
 
+
+
+    <div id="gridTitle">
+        <p>
+            How does Generative AI work?
+        </p>
+    </div>
+
+
+
     <div id="twoColumnGrid">
 
         <div id="column">
             <p>
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac egestas ante. Curabitur volutpat mi vitae diam elementum placerat. Cras ultricies mauris in ante lobortis semper at at quam. Cras vehicula magna id ligula scelerisque interdum. Mauris mollis est libero, non egestas orci tempor vel. Sed eget lectus id diam vehicula venenatis a et arcu. Sed nec mattis nisi. Fusce ultrices eu lacus non pulvinar. Sed euismod erat sed nunc aliquam feugiat. Nulla pulvinar turpis ut erat interdum, ut ultricies velit accumsan. Pellentesque at leo ac ante aliquam placerat eget at dui. Donec scelerisque orci nec leo consectetur elementum. Nunc blandit justo et euismod auctor. Nulla maximus sem vel vehicula ultricies. 
-                
+
+               In order to create Generative AI, researchers create a “foundational model”. <a href="references.html">(1)</a> 
+               This is a Large Language Model (LLM) trained on a very broad set of data. <br><br> For the purposes of this explanation, 
+               this case study will be focusing on text-based Generative AI, but the same principles hold true for other variants.
+
+            </p>
+        </div>
+
+
+        <div id="columnImage">
+            <img src="types-of-llms_3.png">
+        </div>  
+
+        <div id="column">
+            <p>
+                In order to train a foundational model, researchers use Deep Learning algorithms on vast amounts of raw, unprocessed data . 
+                The deep learning algorithm is trained by performing “fill in the blank” exercises, where it uses a neural network to attempt 
+                to predict the blanked-out word <a href="references.html">(1)</a>.<br><br> Neural Networks have a series of parameters that they receive, 
+                and a series of values that 
+                they output, called the Input and Output layers respectively. In-between these layers are any number of Hidden Layers. These layers 
+                consist of nodes which perform various operations on the data. <br><br>
+                The image opposite shows a high-level diagram of the construction of a neural network:
+            </p>
+        </div>
+        <div id="columnImage">
+
+            <img src="neuralnet.png">
+
+        </div>
+        <div id="columnImage">
+            <img src="types-of-llms_1.png">
+        </div>
+        <div id="column">
+            <p>
+            The key to understanding how neural networks are trained is to realise that these 
+            connections and values are subject to change- when the deep learning algorithm makes a 
+            prediction, it is given a score value based on how accurate the prediction was. The neural 
+            net then back-propagates the error through its network, and each node calculates the effect 
+            that its values had on that error. The values are then adjusted to reduce the error, and the 
+            process is repeated. Over many, many iterations, this allows the neural net to become more 
+            proficient at its task. <a href="references.html">(2)</a> <br><br>
+            The result of all of this training is a neural network capable of recognising patterns in data. If properly configured, 
+            this neural network can expand upon its own output, allowing it to create novel works autonomously.
             </p>
         </div>
 
         <div id="column">
             <p>
-                rgba(137, 129, 224, 0.1)rgba(137, 129, 224, 0.1)rgba(137, 129, 224, 0.1)
-                rgba(137, 129, 224, 0.1)rgba(137, 129, 224, 0.1)rgba(137, 129, 224, 0.1)
-                rgba(137, 129, 224, 0.1)rgba(137, 129, 224, 0.1)rgba(137, 129, 224, 0.1)
-                rgba(137, 129, 224, 0.1)rgba(137, 129, 224, 0.1)rgba(137, 129, 224, 0.1)
-                rgba(137, 129, 224, 0.1)rgba(137, 129, 224, 0.1)rgba(137, 129, 224, 0.1)
+                
+                With a foundational model developed, specialisation can begin. The foundational model is a generalist- it has learned how to analyse 
+                and generate text, but it cannot generate reliable, specific information with high fidelity or accuracy. <br><br> In order to remedy this, AI 
+                goes through a fine-tuning process. The model is given both the input data (prompts) and the desired output data. This data is labelled 
+                and categorised so that the model can more efficiently evaluate the cause of the desired output. This approach is very labour intensive, 
+                as it requires the manual labelling of large amounts of data to train the model.<a href="references.html">(1)</a><br>
+                The diagram opposite shows a high-level view of how this training approach works.
             </p>
-        </div>  
-    
+        </div>
+        <div id="columnImage">
+            <img src="hrefl.png ">
+        </div>
     </div>
-
    
 </body>
 </html>
