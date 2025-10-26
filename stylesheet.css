@@ -75,7 +75,7 @@ html {
 
 
 /*onhover styling for nav, possibly re-usable for buttons?*/
-#navbar li a:hover {
+#navbar li a:hover:not(.active) {
   background-image: radial-gradient(rgba(164, 157, 241, 0.192) 20%,rgba(255,255,255,0.9)100%);
   filter:drop-shadow(1vh 1vh 2vh rgba(0,0,0,0.7));
   scale: 1.1;
@@ -125,6 +125,7 @@ html {
   min-height: 20%;
 
 }
+
 
 
 
@@ -183,5 +184,13 @@ html {
   filter:drop-shadow(2vh 2vh 1vh rgba(0,0,0,0.5));
 }
 
+
+
+.active {
+  background-image: radial-gradient(rgba(164, 157, 241, 0.192) 20%,rgba(255,255,255,0.9)100%);
+  filter:drop-shadow(1vh 1vh 2vh rgba(0,0,0,0.7));
+  scale: 1.1;
+  border-radius: 1vw;
+}
 
 
