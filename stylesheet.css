@@ -194,9 +194,6 @@ html {
   border-radius: 1vw;
 }
 
-{
-  scroll-margin-top: 15vh;
-}
 
 #ref1How, #ref2How, #ref1Env, #ref2Env, #ref3Env, #ref4Env, #ref5Env, #ref6Env, #ref7Env, #ref8Env, #ref9Env, #ref10Env, #ref1Med, #ref2Med, #ref3Med, #ref4Med, #ref5Med, #ref6Med, #ref7Med, #ref8Med, #ref9Med, #ref1Eco, #ref1Eco, #ref3Eco, #ref4Eco, #ref5Eco, #ref6Eco, #ref7Eco, #ref8Eco, #ref9Eco, #ref10Eco, #ref11Eco, #ref12Eco, #ref13Eco {
   scroll-margin-top: 15vh;
