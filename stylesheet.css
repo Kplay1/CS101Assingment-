@@ -194,4 +194,6 @@ html {
   border-radius: 1vw;
 }
 
-
+#ref1How, #ref2How {
+  scroll-margin-top: 15vh;
+}
