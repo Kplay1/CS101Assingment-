@@ -1,6 +1,6 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: white;
     background-color: rgb(84, 84, 109);
 
 }
@@ -62,7 +62,7 @@ html {
 
 
   /*for looks*/
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border-radius: 1vw;
 
   /*for animations*/
@@ -194,6 +194,10 @@ html {
   border-radius: 1vw;
 }
 
-#ref1How, #ref2How {
+{
+  scroll-margin-top: 15vh;
+}
+
+#ref1How, #ref2How, #ref1Env, #ref2Env, #ref3Env, #ref4Env, #ref5Env, #ref6Env, #ref7Env, #ref8Env, #ref9Env, #ref10Env, #ref1Med, #ref2Med, #ref3Med, #ref4Med, #ref5Med, #ref6Med, #ref7Med, #ref8Med, #ref9Med  {
   scroll-margin-top: 15vh;
 }
