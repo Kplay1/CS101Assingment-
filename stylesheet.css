@@ -202,10 +202,10 @@ html {
   scroll-margin-top: 15vh;
 }
 
-#column a {
+.column a {
   color:lightgray;
 }
 
-#column a:hover {
+.column a:hover {
   color: lightblue;
 }
